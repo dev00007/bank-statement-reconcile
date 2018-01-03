@@ -1,16 +1,16 @@
-[![Build Status](https://travis-ci.org/OCA/bank-statement-reconcile.svg?branch=10.0)](https://travis-ci.org/OCA/bank-statement-reconcile)
-[![Coverage Status](https://coveralls.io/repos/OCA/bank-statement-reconcile/badge.png?branch=10.0)](https://coveralls.io/r/OCA/bank-statement-reconcile?branch=10.0)
+[![Build Status](https://travis-ci.org/OCA/account-reconcile.svg?branch=10.0)](https://travis-ci.org/OCA/account-reconcile)
+[![Coverage Status](https://coveralls.io/repos/OCA/account-reconcile/badge.png?branch=10.0)](https://coveralls.io/r/OCA/account-reconcile?branch=10.0)
 
-Odoo modules for statements tasks (completion, reconciliation)
-==============================================================
+Odoo account reconciliation modules (statements, data completion,...)
+=====================================================================
 
 ***Important notice: since version 8.0, the import feature has moved here: https://github.com/OCA/bank-statement-import***
 
 
-__Version 8.0 and earlier :__
+__Version 8.0 and later :__
 
 * Completion of infos (partner, account, ref,...) in statements.
-* Provide methods for making automatic reconciliation in batch
+* Provide methods for making automatic reconciliation in batch.
 
 Other features can be found in those repository:
 * https://github.com/OCA/bank-payment
@@ -31,6 +31,7 @@ addon | version | summary
 --- | --- | ---
 [account_mass_reconcile](account_mass_reconcile/) | 10.0.1.0.0 | Mass Reconcile
 [account_move_base_import](account_move_base_import/) | 10.0.1.0.0 | Journal Entry base import
+[bank_statement_foreign_currency](bank_statement_foreign_currency/) | 10.0.1.0.0 | Make visible the foreign currencies in the bank statements
 [base_transaction_id](base_transaction_id/) | 10.0.1.0.0 | Base transaction id for financial institutes
 
 
@@ -38,7 +39,6 @@ Unported addons
 ---------------
 addon | version | summary
 --- | --- | ---
-[account_bank_statement_period_from_line_date](account_bank_statement_period_from_line_date/) | 8.0.1.0.0 (unported) | Use bank transaction (line) date to determine move period
 [account_invoice_reference](account_invoice_reference/) | 8.0.1.0.1 (unported) | Invoices Reference
 [account_mass_reconcile_ref_deep_search](account_mass_reconcile_ref_deep_search/) | 9.0.1.0.0 (unported) | Mass Reconcile Ref Deep Search
 [account_mass_reconcile_transaction_ref](account_mass_reconcile_transaction_ref/) | 9.0.1.0.0 (unported) | Mass Reconcile Transaction Ref
